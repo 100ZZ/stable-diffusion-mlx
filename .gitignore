@@ -18,6 +18,7 @@
 *.zip
 *.tar.gz
 *.rar
+*.pyc
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -43,4 +44,5 @@ logs/*
 *.iws
 .jde*
 /lib/
+__pycache__/
 LOG_HOME_IS_UNDEFINED
