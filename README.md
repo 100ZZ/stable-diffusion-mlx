@@ -1,15 +1,18 @@
 Stable Diffusion Gradio in MLX
 ================
-命令行执行：
+`在M芯片的Mac上，依赖于MLX框架运行Stable Diffusion大模型`
+
+- 命令行执行：
 ```shell
 python txt2image.py "Doraemon is eating dorayaki" --n_images 1 --model sdxl
 ```
-Web页面操作：
+- Web页面操作：
 ```shell
 python app.py
 ```
 登录：[http://127.0.0.1:7860/](http://127.0.0.1:7860/)
 
+![out.png](out.png)
 ---
 
 Stable Diffusion
