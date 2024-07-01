@@ -1,5 +1,19 @@
-Stable Diffusion
+Stable Diffusion Gradio in MLX
 ================
+命令行执行：
+```shell
+python txt2image.py "Doraemon is eating dorayaki" --n_images 1 --model sdxl
+```
+Web页面操作：
+```shell
+python app.py
+```
+登录：[http://127.0.0.1:7860/](http://127.0.0.1:7860/)
+
+---
+
+Stable Diffusion
+------------
 
 Stable Diffusion in MLX. The implementation was ported from Hugging Face's
 [diffusers](https://huggingface.co/docs/diffusers/index) and model weights are
